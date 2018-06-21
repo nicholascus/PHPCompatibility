@@ -430,7 +430,7 @@ sodium_crypto_secretstream_xchacha20poly1305_keygen();
 sodium_crypto_secretstream_xchacha20poly1305_pull();
 sodium_crypto_secretstream_xchacha20poly1305_push();
 sodium_crypto_secretstream_xchacha20poly1305_rekey();
-is_countable();
+
 iterator_count();
 iterator_to_array();
 spl_autoload_call();
@@ -440,3 +440,16 @@ spl_autoload_register();
 spl_autoload_unregister();
 spl_autoload();
 hash_hmac();
+
+hrtime();
+is_countable();
+net_get_interfaces();
+gmp_binomial();
+gmp_lcm();
+gmp_perfect_power();
+gmp_kronecker();
+ldap_exop_refresh();
+openssl_pkey_derive();
+socket_wsaprotocol_info_export();
+socket_wsaprotocol_info_import();
+socket_wsaprotocol_info_release();
