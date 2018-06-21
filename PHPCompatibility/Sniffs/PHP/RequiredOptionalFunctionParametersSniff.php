@@ -32,6 +32,20 @@ class RequiredOptionalFunctionParametersSniff extends AbstractComplexVersionSnif
      * @var array
      */
     protected $functionParameters = array(
+        'array_push' => array(
+            1 => array(
+                'name' => 'element to push',
+                '7.2'  => true,
+                '7.3'  => false,
+            ),
+        ),
+        'array_unshift' => array(
+            1 => array(
+                'name' => 'element to prepend',
+                '7.2'  => true,
+                '7.3'  => false,
+            ),
+        ),
         'bcscale' => array(
             0 => array(
                 'name' => 'scale',
